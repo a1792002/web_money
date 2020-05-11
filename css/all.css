@@ -1,13 +1,35 @@
-body {
-  background-color: #666;
-  color: #000;
+* {
   padding: 0;
   margin: 0;
+  list-style: none;
+  text-decoration: none;
 }
 .wrap {
-  width: 800px;
+  width: 980px;
   margin: auto;
 }
-.container {
-  margin-top: 100px auto;
+
+/* header */
+.header {
+  background-color: #3d62ad;
+  display: flex;
+}
+.header h1 {
+  font-size: 20px;
+  line-height: 60px;
+}
+.header h1 a {
+  background: url(../img/web/logo.jpg) no-repeat;
+    background-size: contain;
+    display: block;
+    width: 120px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.header nav {
+
+}
+.header .menu {
+  background-color: #ec6d34;
 }
