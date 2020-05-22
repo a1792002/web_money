@@ -589,6 +589,10 @@ h2.title span {
   border-left: 5px solid #ec6d34;
   margin: 0 10px 6px 0;
 }
+.web_content #disclaimer > ul {
+  flex-direction: column;
+  text-align: left;
+}
 .web_content .txt ol {
   text-align: left;
 }
